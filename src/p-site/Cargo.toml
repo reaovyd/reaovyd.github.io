@@ -1,0 +1,22 @@
+[package]
+name = "reaovyd-personal-site"
+version = "0.0.1"
+edition = "2021"
+description = "My Personal Site"
+readme = "README.md"
+repository = "https://github.com/reaovyd/reaovyd.github.io"
+license = "MIT"
+keywords = ["yew", "trunk"]
+categories = ["gui", "wasm", "web-programming"]
+
+[dependencies]
+yew = { version = "0.20", features = ["csr"] }
+ybc = "*"
+yew_icons = { version = "0.7", features = [
+  "BootstrapLinkedin",
+  "BootstrapGithub",
+  "BootstrapTwitter",
+  "BootstrapPersonCircle",
+  "LucideMail",
+  "HeroiconsMiniSolidDocumentText"
+] }
